@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whispering Hills | Boutique Hill Stay in Ooty</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#1b2a22',
+                            DEFAULT: '#2c3e35',
+                            light: '#4a6256',
+                            accent: '#d4af37',
+                            sand: '#f4f1ea'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-brand-sand text-brand-dark font-sans antialiased selection:bg-brand-accent selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#home" class="flex items-center gap-2">
+                <span class="font-serif text-xl tracking-wider font-semibold text-brand-dark">WHISPERING HILLS</span>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-stone-700">
+                <a href="#home" class="hover:text-brand-accent transition-colors">Home</a>
+                <a href="#about" class="hover:text-brand-accent transition-colors">About Us</a>
+                <a href="#rooms" class="hover:text-brand-accent transition-colors">Rooms</a>
+                <a href="#amenities" class="hover:text-brand-accent transition-colors">Amenities</a>
+                <a href="#gallery" class="hover:text-brand-accent transition-colors">Gallery</a>
+                <a href="#contact" class="hover:text-brand-accent transition-colors">Contact Us</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <a href="tel:+919061876000" class="hidden sm:inline-flex items-center gap-2 bg-brand-dark text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-brand-light transition-all shadow-sm">
+                    <i data-lucide="phone" class="w-4 h-4"></i>
+                    <span>+91 9061876000</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen flex items-center justify-center text-center px-4 pt-20">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=2000&q=80" alt="Ooty mountain scenery" class="w-full h-full object-cover brightness-[0.75]">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-3xl mx-auto text-white space-y-6">
+            <span class="inline-block uppercase tracking-widest text-xs font-semibold bg-white/20 backdrop-blur-md px-3.5 py-1.5 rounded-full text-stone-200 border border-white/30">
+                Boutique Hill Stay in Ooty
+            </span>
+            <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-tight">
+                Stay wrapped in Ooty’s calm and charm.
+            </h1>
+            <p class="text-lg sm:text-xl text-stone-200 max-w-2xl mx-auto font-light">
+                Whispering Hills offers a refreshing mountain stay near Ooty’s popular attractions, with elegant spaces, warm hospitality and a quiet atmosphere that feels instantly relaxing.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="#rooms" class="w-full sm:w-auto bg-stone-100 text-brand-dark font-medium px-8 py-3.5 rounded-full hover:bg-white transition-all shadow-md">
+                    Explore Deluxe Room
+                </a>
+                <a href="#contact" class="w-full sm:w-auto border border-white/80 text-white font-medium px-8 py-3.5 rounded-full hover:bg-white/10 backdrop-blur-sm transition-all">
+                    Book Your Stay
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div class="space-y-6">
+                <span class="text-brand-light font-semibold uppercase tracking-wider text-xs">About The Stay</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">
+                    A simple, elegant retreat with the right location.
+                </h2>
+                <p class="text-stone-600 leading-relaxed font-light">
+                    Set on Monte Rosa Road at Monterosa Colony, Whispering Hills is designed for travellers who want neat interiors, thoughtful service and easy access to Ooty’s most loved spots.
+                </p>
+                <ul class="space-y-3 pt-2">
+                    <li class="flex items-center gap-3 text-stone-700">
+                        <span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-dark text-white flex items-center justify-center text-xs font-bold">✓</span>
+                        <span>Only 800 meters from Thread Garden</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-stone-700">
+                        <span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-dark text-white flex items-center justify-center text-xs font-bold">✓</span>
+                        <span>24-hour front desk for smooth check-in and support</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-stone-700">
+                        <span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-dark text-white flex items-center justify-center text-xs font-bold">✓</span>
+                        <span>Free Wi-Fi in all rooms for uninterrupted connection</span>
+                    </li>
+                    <li class="flex items-center gap-3 text-stone-700">
+                        <span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-dark text-white flex items-center justify-center text-xs font-bold">✓</span>
+                        <span>Car park for added convenience during your stay</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1000&q=80" alt="Resort ambience" class="rounded-2xl shadow-xl w-full h-[400px] sm:h-[480px] object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="py-24 bg-stone-100 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <span class="text-brand-light font-semibold uppercase tracking-wider text-xs">Room Highlight</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">One refined room category. Four comfortable stays.</h2>
+            </div>
+
+            <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-200 grid grid-cols-1 lg:grid-cols-2">
+                <div class="relative h-[300px] lg:h-auto">
+                    <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1000&q=80" alt="Deluxe Room" class="w-full h-full object-cover">
+                </div>
+                <div class="p-8 sm:p-12 flex flex-col justify-center space-y-6">
+                    <h3 class="font-serif text-2xl sm:text-3xl font-bold text-brand-dark">Deluxe Room</h3>
+                    <p class="text-stone-600 font-light leading-relaxed">
+                        Our Deluxe Room category is ideal for couples, small families and leisure travellers who want a clean, cosy and stylish place to unwind after exploring Ooty.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 py-2 border-y border-stone-100 text-sm text-stone-700 font-medium">
+                        <div class="flex items-center gap-2"><i data-lucide="bed" class="w-4 h-4 text-brand-light"></i> 4 Deluxe Rooms</div>
+                        <div class="flex items-center gap-2"><i data-lucide="sparkles" class="w-4 h-4 text-brand-light"></i> Comfortable interiors</div>
+                        <div class="flex items-center gap-2"><i data-lucide="wifi" class="w-4 h-4 text-brand-light"></i> Free Wi-Fi</div>
+                        <div class="flex items-center gap-2"><i data-lucide="headphones" class="w-4 h-4 text-brand-light"></i> Front desk support</div>
+                    </div>
+                    <p class="text-sm text-stone-500 font-light">
+                        Each room is planned to feel fresh, restful and functional, with a warm palette and a quiet resort-style mood that suits the hill station setting.
+                    </p>
+                    <div>
+                        <a href="#contact" class="inline-block bg-brand-dark text-white font-medium px-6 py-3 rounded-full text-sm hover:bg-brand-light transition-all shadow-sm">
+                            Enquire & Book
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+            <span class="text-brand-light font-semibold uppercase tracking-wider text-xs">Thoughtful Conveniences</span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">Designed for a seamless hill retreat</h2>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-8 rounded-2xl border border-stone-200 space-y-3 text-center">
+                <div class="w-12 h-12 rounded-full bg-brand-sand text-brand-dark flex items-center justify-center mx-auto mb-4">
+                    <i data-lucide="clock" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-serif font-bold text-lg">24-Hour Front Desk</h3>
+                <p class="text-stone-600 text-sm font-light">Smooth check-in, assistance, and support whenever you require it.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-stone-200 space-y-3 text-center">
+                <div class="w-12 h-12 rounded-full bg-brand-sand text-brand-dark flex items-center justify-center mx-auto mb-4">
+                    <i data-lucide="wifi" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-serif font-bold text-lg">Free High-Speed Wi-Fi</h3>
+                <p class="text-stone-600 text-sm font-light">Stay connected across all rooms throughout your mountain holiday.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-stone-200 space-y-3 text-center">
+                <div class="w-12 h-12 rounded-full bg-brand-sand text-brand-dark flex items-center justify-center mx-auto mb-4">
+                    <i data-lucide="car" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-serif font-bold text-lg">Private Car Park</h3>
+                <p class="text-stone-600 text-sm font-light">Added convenience and security for your vehicles during your stay.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-stone-200 space-y-3 text-center">
+                <div class="w-12 h-12 rounded-full bg-brand-sand text-brand-dark flex items-center justify-center mx-auto mb-4">
+                    <i data-lucide="map-pin" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-serif font-bold text-lg">Prime Location</h3>
+                <p class="text-stone-600 text-sm font-light">Situated conveniently close to Ooty's famous tourist attractions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-24 bg-stone-100 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <span class="text-brand-light font-semibold uppercase tracking-wider text-xs">Visual Taste</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">A visual taste of Whispering Hills.</h2>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-2xl shadow-sm h-64"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80" alt="Gallery 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"></div>
+                <div class="overflow-hidden rounded-2xl shadow-sm h-64"><img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" alt="Gallery 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"></div>
+                <div class="overflow-hidden rounded-2xl shadow-sm h-64"><img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=800&q=80" alt="Gallery 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"></div>
+                <div class="overflow-hidden rounded-2xl shadow-sm h-64"><img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80" alt="Gallery 4" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"></div>
+                <div class="overflow-hidden rounded-2xl shadow-sm h-64"><img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80" alt="Gallery 5" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"></div>
+                <div class="overflow-hidden rounded-2xl shadow-sm h-64"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80" alt="Gallery 6" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+            <span class="text-brand-light font-semibold uppercase tracking-wider text-xs">Testimonials</span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">What guests appreciate most.</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl border border-stone-200 flex flex-col justify-between space-y-4 shadow-sm">
+                <p class="text-stone-600 font-light italic">“The stay felt peaceful and well-kept. The location made it easy to visit nearby attractions without losing the quiet charm.”</p>
+                <div>
+                    <h4 class="font-serif font-bold text-brand-dark">Arjun Menon</h4>
+                    <span class="text-xs text-stone-400">Weekend traveller</span>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-stone-200 flex flex-col justify-between space-y-4 shadow-sm">
+                <p class="text-stone-600 font-light italic">“Clean rooms, responsive staff and a very pleasant atmosphere. It felt comfortable from the moment we arrived.”</p>
+                <div>
+                    <h4 class="font-serif font-bold text-brand-dark">Nisha Thomas</h4>
+                    <span class="text-xs text-stone-400">Family guest</span>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-stone-200 flex flex-col justify-between space-y-4 shadow-sm">
+                <p class="text-stone-600 font-light italic">“A neat boutique stay in Ooty with a calm mood and great convenience. Perfect for a relaxed mountain break.”</p>
+                <div>
+                    <h4 class="font-serif font-bold text-brand-dark">Rahul Krishnan</h4>
+                    <span class="text-xs text-stone-400">Couple stay</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="bg-brand-dark text-white pt-20 pb-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 pb-16 border-b border-white/10">
+            <div class="space-y-4">
+                <h3 class="font-serif text-xl tracking-wider font-semibold">Whispering Hills</h3>
+                <p class="text-stone-400 text-sm font-light leading-relaxed">
+                    A calm boutique stay in Ooty designed for guests who value clean comfort, a great location and a soothing mountain atmosphere.
+                </p>
+            </div>
+            <div class="space-y-4">
+                <h4 class="font-serif font-semibold text-lg">Address & Contact</h4>
+                <p class="text-stone-400 text-sm font-light leading-relaxed">
+                    Monte Rosa Road, Monterosa Colony, Rohini Junction, Ooty, Tamil Nadu 643001
+                </p>
+                <p class="text-stone-400 text-sm font-light">
+                    Phone: <a href="tel:+919061876000" class="text-white hover:underline">+91 9061876000</a>
+                </p>
+            </div>
+            <div class="space-y-4">
+                <h4 class="font-serif font-semibold text-lg">Quick Links</h4>
+                <ul class="space-y-2 text-sm text-stone-400 font-light">
+                    <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+                    <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+                    <li><a href="#rooms" class="hover:text-white transition-colors">Rooms</a></li>
+                    <li><a href="#amenities" class="hover:text-white transition-colors">Amenities</a></li>
+                    <li><a href="#gallery" class="hover:text-white transition-colors">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500">
+            <p>© 2026 Whispering Hills. All rights reserved.</p>
+            <p>Designed for a modern Ooty resort experience.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
